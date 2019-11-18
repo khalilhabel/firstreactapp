@@ -1,22 +1,50 @@
-.App {
-  text-align: center;
+.Card {
+  border: 2px;
+  padding: 10px;
+  border-radius: 25px;
+  height: 300px;
+  width: 600px;
+  background-color: #1e517d;
+  margin-left: 300px;
+  background-image: url("https://cdn.futura-sciences.com/buildsv6/images/wide1920/6/8/c/68ce9326b3_122220_terre-espace-vitesse-02.jpg");
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  margin-left: 300px;
   color: white;
 }
+.sim {
+  height: 60px;
+  width: 60px;
+  margin-left: 30px;
+}
+.code {
+  color: #d4e092;
+  background-color: #28736b;
+  width: 270px;
+  padding-left: 20px;
+  margin-left: 50px;
+}
+.information {
+  color: white;
+  display: flex;
+  margin-left: 250px;
+  margin-top: -70px;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+}
+h2 {
+  color: white;
+}
+.age {
+  color: white;
+  margin-left: 300px;
+  margin-top: -120px;
+  padding: 5px;
+}
 
-.App-link {
-  color: #09d3ac;
+.logomaster {
+  margin-left: 500px;
+  margin-top: -120px;
 }
